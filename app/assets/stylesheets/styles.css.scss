@@ -1,10 +1,10 @@
-$btnPrimaryBackground: green;
+$bodyBackground: #f8f8f8;
+$btnPrimaryBackground: pink;
 $navbarBackgroundHighlight: white;
-$navbarBackground: white;
-/*You could change the font
-$baseFontFamily: Oxygen;
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
-*/
+$navbarBackground: pink;
+/*$baseFontFamily: Oxygen;*/
+$headingsFontFamily: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+/*@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 @import 'bootstrap';
 
 body {
@@ -12,7 +12,12 @@ body {
 }
 
 @import 'bootstrap-responsive';
-
+.btn-primary {color: #333333;}
+.hero-unit {
+	background-color: #f8f8f8;
+ 	h1 {color: #c3334e;}
+}
+h1 {color: #c3334e;}
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
