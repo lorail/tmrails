@@ -5,8 +5,8 @@ class Pin < ActiveRecord::Base
   validates :user_id, presence: true
   validates_attachment :image, presence: true,
   										         content_type: { content_type: ['image/jpeg', 'image/jpg', 'image/png'] },
- 											         size: { less_than: 1.megabytes }
+ 											         size: { less_than: 2.megabytes }
   
   belongs_to :user
-  has_attached_file :image, styles: { medium: "320x240>" }
+  has_attached_file :image, styles: { medium: "320x240#" }
 end
