@@ -32,7 +32,7 @@ h1, h2 {color: #c3334e;}
 /*required for jQ Masonry*/
 .box {
 	margin: 5px;
-	padding: 5px;
+	padding: 12px;
 	font-size: 11px;
 	line-height: 1.4em;
 	float: left;
@@ -40,7 +40,7 @@ h1, h2 {color: #c3334e;}
 	-moz-border-radius: 5px;
 	border-radius:  5px;
 	box-shadow: 1px 1px 10px #444;
-	width: 214px;
+	width: 300px;
 	}
 .box img {
 	display: block;
@@ -50,7 +50,6 @@ h1, h2 {color: #c3334e;}
 	border-radius:  5px;
 }
 .description {
-	margin: 10px 0 5px;
 	white-space: pre-line;
 }
 	
