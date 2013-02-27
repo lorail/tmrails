@@ -8,5 +8,5 @@ class Pin < ActiveRecord::Base
  											         size: { less_than: 2.megabytes }
   
   belongs_to :user
-  has_attached_file :image, styles: { medium: "245x245#" }
+  has_attached_file :image, styles: { medium: "225x225#" }
 end
