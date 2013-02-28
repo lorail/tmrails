@@ -7,7 +7,7 @@ gem 'simple_form'
 gem 'paperclip', '3.4.0'
 gem 'cocaine', '0.4.2'
 gem 'aws-sdk'
-gem 'will_paginate-bootstrap'
+gem 'will_paginate', '~>3.0.3'
 
 group :production do
   gem 'pg'
