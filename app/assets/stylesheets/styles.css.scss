@@ -2,7 +2,6 @@ $bodyBackground: #f8f8f8;
 $btnPrimaryBackground: pink;
 $navbarBackgroundHighlight: white;
 $navbarBackground: pink;
-/*$baseFontFamily: Oxygen;*/
 $headingsFontFamily: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
 /*@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
 @import 'bootstrap';
@@ -25,6 +24,7 @@ h1, h2 {color: #c3334e;}
 .footer {
 	margin-top: 50px;
 	color: $grayLight;
+	text-align: center;
 	a {
 		color: $gray;
 	}
@@ -51,5 +51,11 @@ h1, h2 {color: #c3334e;}
 }
 .description {
 	white-space: pre-line;
+}
+.pagination {
+	text-align: center;
+	.disabled {
+		visibility: hidden;
+	}
 }
 	
