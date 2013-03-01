@@ -1,9 +1,10 @@
 $bodyBackground: #f8f8f8;
-$btnPrimaryBackground: pink;
+$btnBackground: #08c; 
+$btnPrimaryBackground: pink; 
 $navbarBackgroundHighlight: white;
 $navbarBackground: pink;
-$headingsFontFamily: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
-/*@import url(http://fonts.googleapis.com/css?family=Oxygen);*/
+$headingsFontFamily: "Croissant One", Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+@import url(http://fonts.googleapis.com/css?family=Croissant+One);
 @import 'bootstrap';
 
 body {
@@ -16,7 +17,7 @@ body {
 	background-color: #f8f8f8;
  	h1 {color: #c3334e;}
 }
-h1, h2 {color: #c3334e;}
+h1, h2, {color: #c3334e;}
 .navbar-inner {
 	@include box-shadow(none !important);
 	border: 0;
