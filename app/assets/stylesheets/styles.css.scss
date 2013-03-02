@@ -12,6 +12,7 @@ body {
 }
 
 @import 'bootstrap-responsive';
+
 .btn-primary {color: #333333;}
 .hero-unit {
 	background-color: #f8f8f8;
@@ -30,7 +31,7 @@ h1, h2, {color: #c3334e;}
 		color: $gray;
 	}
 }
-#pins {margin: 0 auto;}
+
 /*required for jQ Masonry*/
 .box {
 	margin: 5px;
@@ -46,7 +47,7 @@ h1, h2, {color: #c3334e;}
 	}
 .box img {
 	display: block;
-	width: 100%;
+	/*width: 100%;*/
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius:  5px;
