@@ -30,6 +30,7 @@ h1, h2, {color: #c3334e;}
 		color: $gray;
 	}
 }
+#pins {margin: 0 auto;}
 /*required for jQ Masonry*/
 .box {
 	margin: 5px;
@@ -41,7 +42,7 @@ h1, h2, {color: #c3334e;}
 	-moz-border-radius: 5px;
 	border-radius:  5px;
 	box-shadow: 1px 1px 10px #444;
-	width: 240px;
+	width: auto;
 	}
 .box img {
 	display: block;
