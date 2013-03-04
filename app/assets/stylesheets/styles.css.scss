@@ -33,7 +33,9 @@ h1, h2, {color: #c3334e;}
 }
 
 /*required for jQ Masonry*/
-#pins .masonry {margin: 0 auto;}
+.masonry {
+	margin: 0 auto;
+}
 .box {
 	margin: 5px;
 	padding: 12px;
